@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="javaScript" href="scripts/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/productos.css">
+    <link rel="stylesheet" href="styles/crear.css">
+    <title>REGISTRARSE</title>
+    
+</head>
+<body>
+    <div class="topnav " id="myTopnav">
+        <a href="index.html" class="active left">MENU</a>
+        <a href="productos.html" class="left">PRODUCTOS</a>
+        <a href="ofertas.html" class="left">OFERTAS</a>
+        <a href="inisiar.html" class="right">INICIAR SESION</a>
+        <a href="crear.html" class="right">CREAR CUENTA</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFuntion()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <center><h1>REGISTRARSE</h1></center>
+    </div>
+    <div class="conte">
+        <h2>CREAR CUENTA</h2>
+            <form action="sudmit">
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellidos"required>
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Nombre Usuario">
+                <input type="password" placeholder="Contraseña">
+                <center><input type="button" value="CREAR CUENTA"></center>
+            </form>
+    </div>
+    
+    
+    
+    
+    <script>
+        function myFuntion() {
+        var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>

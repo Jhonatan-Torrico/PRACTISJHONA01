@@ -1,0 +1,37 @@
+.conte {
+    background-color: #333;
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    color: cornsilk;
+    position: relative;
+}
+
+.conte h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.conte input[type="text"],
+.conte input[type="password"],
+.conte input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgb rgb(0, 3, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.conte input[type="text"]:focus,
+.conte input[type="password"]:focus,
+.conte input[type="email"]:focus {
+    border-bottom: 4px solid #501210;
+}
+
